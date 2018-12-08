@@ -19,3 +19,13 @@ Route::get('/about',function (){
 
 	return "this is about us";
 });
+
+Route::get('/vision', function (){
+
+	return "this is vision";
+});
+
+Route::get('/contact', function(){
+
+	return "this is contact";
+});
