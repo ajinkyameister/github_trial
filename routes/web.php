@@ -22,7 +22,7 @@ Route::get('/about',function (){
 
 Route::get('/vision', function (){
 
-	return "this is vision";
+	return "this is our new vision";
 });
 
 Route::get('/contact', function(){
